@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Crystal Collector</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+            <a class="navbar-brand" href="#">CRYSTAL COLLECTORS</a>
+           
+            </div>
+          </nav>
+    
+          <div class="instructions">
+           
+
+        <p>Click each crystal to match the value of the random number below. Each crystal has a different value.</p>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score
+            goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it. Good luck!</p>
+    </div>
+   
+            <div class="container">
+                <div class="row">
+
+                  <div class="col-sm-4">
+                      <h4>Number to Get:</h4>
+                    <div class="targetNumber"></div>
+                </div>
+                    <div class="col-sm-4">
+                            <h4>Your Total Score is:</h4>
+                            <div id ="totalScore"></div>
+                            <div id ="yourScore"></div>
+                  </div>
+
+                  <div class="col-sm-2">
+                      <h4>Wins:</h4>
+                    <div class="wins"></div>
+                  </div>
+
+                  <div class="col-sm-2">
+                      <h4>Losses:</h4>
+                    <div class="losses"></div>
+                </div>
+            
+                </div>
+              </div>
+
+              <div class="img-container">
+                    <div id="crystals">
+                    <div class="row">
+                      <div class="col-sm-3">
+                            <img class="crystal-blue" src="assets/images/BlueCrystal.jpg" alt="Blue Crystal">
+
+                      </div>
+                      <div class="col-sm-3">
+                            <img class="crystal-green" src="assets/images/GreenCrystal.jpg" alt="Green Crystal">
+
+                      </div>
+                      <div class="col-sm-3">
+                            <img class="crystal-greenpurple" src="assets/images/GreenPurpleCrystal.jpg"  alt="Green Purple Crystal">
+
+                    </div>
+                    <div class="col-sm-3">
+                            <img class="crystal-pink"  src="assets/images/PinkCrystal.jpg" alt="Pink Crystal">
+
+                        </div>
+                    </div>
+                  </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
