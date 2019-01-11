@@ -1,5 +1,5 @@
 # Crystal Collector
-![](assets/images/GreenPurpleCrystal.jpg)
+![](assets/images/BlueCrystal.jpg)
 Collecting Crystals
 
 ## Instructions
